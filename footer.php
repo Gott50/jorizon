@@ -14,19 +14,9 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jorizon' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'jorizon' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'jorizon' ), 'jorizon', '<a href="https://github.com/gott50">Gott50</a>' );
-				?>
-		</div><!-- .site-info -->
+        <div class="imprint two">
+            <div class="hero3 imprintbg"><a href="#" class="title2 imprinttitle">Impressum &amp; Daten</a></div>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
