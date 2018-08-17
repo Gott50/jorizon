@@ -30,26 +30,29 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <div class="hero">
+                    <div class="logo"></div>
+                </div>
 				<?php
+                $jorizon_description = get_bloginfo( 'description', 'display' );
+                if ( $jorizon_description || is_customize_preview() ) :
+                    ?>
+                    <h1 class="subtitle"><?php echo $jorizon_description; /* WPCS: xss ok. */ ?></h1>
+                <?php endif;
 			else :
 				?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
-			endif;
-			$jorizon_description = get_bloginfo( 'description', 'display' );
-			if ( $jorizon_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $jorizon_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
+			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
+		<nav id="site-navigation" class="main-navigation menu">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jorizon' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
+                'menu_class'     => 'menuitems',
 			) );
 			?>
 		</nav><!-- #site-navigation -->
