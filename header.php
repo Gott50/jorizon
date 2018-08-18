@@ -27,10 +27,9 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
-			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-                <div class="hero">
+                <div class="hero" style="background-image: url('<?php header_image(); ?>')">
                     <div class="logo"></div>
                 </div>
 				<?php

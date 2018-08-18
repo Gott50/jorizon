@@ -20,8 +20,8 @@ function jorizon_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'jorizon_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'width'                  => 1400,
+		'height'                 => 868,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'jorizon_header_style',
 	) ) );
