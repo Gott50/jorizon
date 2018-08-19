@@ -24,8 +24,7 @@
         </h2><!-- .entry-meta -->
         <?php endif; ?>
     </header>
-    <div class="herotwo">
-        <?php jorizon_post_thumbnail(); ?>
+    <div class="herotwo blog" style="background-image: url(<?php the_post_thumbnail_url() ?>)">
     </div>
     <div class="blogholder right">
         <div class="description blog_preview_text">
