@@ -79,7 +79,25 @@ get_header();
                     <div class="herotwo"></div>
                     <div class="leftholder descriptionholder">
                         <div class="form-block w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" class="form"><label for="name" class="title4_contact">Name:</label><input type="text" class="field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name"><label for="email" class="title4_contact">Email Address:</label><input type="text" class="field second w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
+                            <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                                <label for="name" class="title4_contact">Name:</label>
+                                <input type="text"
+                                       class="field w-input"
+                                       maxlength="256" name="name"
+                                       data-name="Name"
+                                       placeholder="Enter your name"
+                                       id="name"><label
+                                        for="email" class="title4_contact">Email Address:</label>
+                                <input type="text"
+                                       class="field second w-input"
+                                       maxlength="256"
+                                       name="email"
+                                       data-name="Email"
+                                       placeholder="Enter your email"
+                                       id="email"
+                                       required=""><input
+                                        type="submit" value="Submit" data-wait="Please wait..."
+                                        class="submit-button w-button"></form>
                             <div class="w-form-done">
                                 <div>Thank you! Your submission has been received!</div>
                             </div>
