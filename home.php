@@ -24,7 +24,7 @@ get_header();
                         <h1 class="title2">Landschaften</h1><a href="#" class="title3 m_left landscapes">Share Foto</a>
                         <h1 class="title4_bottom">2018 Eibsee</h1>
                     </div>
-                    <div class="herotwo"></div>
+                    <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg);"></div>
                     <div class="leftholder descriptionholder">
                         <div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div><a href="#" class="cta">Mehr Fotos👉</a></div>
                 </div>
@@ -34,7 +34,7 @@ get_header();
                 <div class="column one bottom">
                     <div class="leftholder descriptionholder">
                         <div class="description portraitdescription">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div><a href="#" class="cta">Mehr Fotos👉</a></div>
-                    <div class="herotwo portrait"></div>
+                    <div class="herotwo portrait" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02495.jpg)"></div>
                     <div class="leftholder portraitholder">
                         <h1 class="title2 portraittitle">Portraits</h1><a href="#" class="title3 m_right">Share Foto</a>
                         <h1 class="title4_bottom portraitcap">2018 Alex Bosch</h1>
@@ -76,7 +76,7 @@ get_header();
                             <h1 class="title4_bottom">2018 Eibsee</h1>
                         </div>
                     </div>
-                    <div class="herotwo"></div>
+                    <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg)"></div>
                     <div class="leftholder descriptionholder">
                         <div class="form-block w-form">
                             <form id="email-form" name="email-form" data-name="Email Form" class="form">
