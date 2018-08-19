@@ -30,7 +30,7 @@
 			if ( is_front_page() && is_home() ) :
 				?>
                 <div class="hero" style="background-image: url('<?php header_image(); ?>')">
-                    <div class="logo"></div>
+                    <div class="logo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-lesser-new-logo.svg)"></div>
                 </div>
 				<?php
                 $jorizon_description = get_bloginfo( 'description', 'display' );
