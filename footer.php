@@ -15,7 +15,8 @@
 
 	<footer id="colophon" class="site-footer">
         <div class="imprint two">
-            <div class="hero3 imprintbg"><a href="#" class="title2 imprinttitle">Impressum &amp; Daten</a></div>
+            <div class="hero3 imprintbg" style="background-image: linear-gradient(180deg, transparent, transparent), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8533-1.jpg);">
+                <a href="#" class="title2 imprinttitle">Impressum &amp; Daten</a></div>
         </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

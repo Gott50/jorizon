@@ -29,7 +29,7 @@ get_header();
                         <div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div><a href="#" class="cta">Mehr Fotos👉</a></div>
                 </div>
                 <div class="column two">
-                    <div class="hero3"></div>
+                    <div class="hero3" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
                 </div>
                 <div class="column one bottom">
                     <div class="leftholder descriptionholder">
@@ -41,7 +41,7 @@ get_header();
                     </div>
                 </div>
                 <div class="column two">
-                    <div class="hero3 portrait3"></div>
+                    <div class="hero3 portrait3" style="background-image: linear-gradient(180deg, transparent, transparent), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02200.jpg);"></div>
                 </div>
             </div>
 			<?php
