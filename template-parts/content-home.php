@@ -12,15 +12,10 @@
 <article id="post-<?php the_ID(); ?>" class="column one blogsection">
     <header class="blogholder">
         <?php the_title( '<h1 class="title2"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );?>
-        <h1 class="blogsubtitle">Letztens war ich shooten. Ein Bericht voller Angst.</h1>
         <a href="#" class="title3 blogshare m_left blog">Share Article</a>
         <?php if ( 'post' === get_post_type() ) :
         ?>
         <h2 class="title4_bottom">
-		    <?php
-		    jorizon_posted_on();
-		    jorizon_posted_by();
-		    ?>
         </h2><!-- .entry-meta -->
         <?php endif; ?>
     </header>

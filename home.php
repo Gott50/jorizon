@@ -22,7 +22,6 @@ get_header();
                 <div class="column one">
                     <div class="leftholder">
                         <h1 class="title2">Landschaften</h1><a href="#" class="title3 m_left landscapes">Share Foto</a>
-                        <h1 class="title4_bottom">2018 Eibsee</h1>
                     </div>
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg);"></div>
                     <div class="leftholder descriptionholder">
@@ -37,7 +36,6 @@ get_header();
                     <div class="herotwo portrait" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02495.jpg)"></div>
                     <div class="leftholder portraitholder">
                         <h1 class="title2 portraittitle">Portraits</h1><a href="#" class="title3 m_right">Share Foto</a>
-                        <h1 class="title4_bottom portraitcap">2018 Alex Bosch</h1>
                     </div>
                 </div>
                 <div class="column two">
@@ -58,9 +56,6 @@ get_header();
 					get_template_part( 'template-parts/content', 'home' );
 
 				endwhile;
-
-				the_posts_navigation();
-
 			else :
 
 				get_template_part( 'template-parts/content', 'none' );
