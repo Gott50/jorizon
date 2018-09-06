@@ -50,26 +50,20 @@ get_header();
                     <div class="hero3 portrait3" style="background-image: linear-gradient(180deg, transparent, transparent), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02200.jpg);"></div>
                 </div>
             </div>
-			<?php
-			if ( have_posts() ) :
-				/* Start the Loop */
-				while ( have_posts() ) :
-					the_post();
-
-					/*
-					 * Include the Post-Type-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-					 */
-					get_template_part( 'template-parts/content', 'home' );
-
-				endwhile;
-			else :
-
-				get_template_part( 'template-parts/content', 'none' );
-
-			endif;
-			?>
+            <div class="column one blogsection">
+                <div class="blogholder">
+                    <h1 class="title2">Blog</h1>
+                    <a href="#" class="title3 blogshare m_left blog">Share Article</a>
+                </div>
+                <div class="herotwo blog" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
+                <div class="blogholder right">
+                    <div class="description blog_preview_text">
+                        Die Fotografie versorgt jeden, der sich eingehender mit ihr befasst, mit allen möglichen
+                        Geschichten. Daher werde ich hier regelmäßig einige eigene Geschichten erzählen. Für euch gibt
+                        es dazu viele Hintergrundinformationen, Tipps und Tricks sowie spannende Locations, die
+                        einen Besuch auf jeden Fall wert sind.
+                    </div><a href="#" class="cta blogmore">Mehr lesen👉</a></div>
+            </div>
             <div class="sectionlasts">
                 <div class="column one contactcolumn">
                     <div class="leftholder">
