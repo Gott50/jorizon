@@ -17,14 +17,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/favicon-16x16.png">
-    <link rel="manifest" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/site.webmanifest">
-    <link rel="mask-icon" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/safari-pinned-tab.svg" color="#080808">
-    <link rel="shortcut icon" href="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/safari-pinned-tab.svg" color="#080808">
+    <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/assets/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="<?php bloginfo( 'stylesheet_directory' ); ?>/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="<?php bloginfo( 'template_url' ); ?>/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
 	<?php wp_head(); ?>
