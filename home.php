@@ -25,14 +25,22 @@ get_header();
                     </div>
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg);"></div>
                     <div class="leftholder descriptionholder">
-                        <div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div><a href="#" class="cta">Mehr Fotos👉</a></div>
+                        <div class="description">
+                            Die Landschaftsfotografie ist meine fotografische Heimat. Noch immer
+                            ist die Faszination für die unbändigbare Kraft der Natur, die sich uns immer wieder in
+                            fantastischen Szenerien offenbart, ungebrochen. Hier ist eine kleine Auswahl meiner
+                            Aufnahmen.
+                        </div><a href="#" class="cta">Mehr Fotos👉</a></div>
                 </div>
                 <div class="column two">
                     <div class="hero3" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
                 </div>
                 <div class="column one bottom">
                     <div class="leftholder descriptionholder">
-                        <div class="description portraitdescription">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div><a href="#" class="cta">Mehr Fotos👉</a></div>
+                        <div class="description portraitdescription">
+                            Hier ist eine kleine Auswahl meiner Portraits. Wenn ihr Interesse an eigenen habt, dann
+                            schreibt mir einfach eine Nachricht.
+                        </div><a href="#" class="cta">Mehr Fotos👉</a></div>
                     <div class="herotwo portrait" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02495.jpg)"></div>
                     <div class="leftholder portraitholder">
                         <h1 class="title2 portraittitle">Portraits</h1><a href="#" class="title3 m_right">Share Foto</a>
@@ -68,7 +76,6 @@ get_header();
                         <div class="left_holder_top">
                             <h1 class="title2">Kontakt</h1>
                             <h1 class="title3 m_left">Email schicken</h1>
-                            <h1 class="title4_bottom">2018 Eibsee</h1>
                         </div>
                     </div>
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg)"></div>
