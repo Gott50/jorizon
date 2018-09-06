@@ -75,7 +75,8 @@ get_header();
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg)"></div>
                     <div class="leftholder descriptionholder">
                         <div class="form-block w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                            <form method="post" action="https://formspree.io/johannes-lesser@web.de"
+                                    id="email-form" name="email-form" data-name="Email Form" class="form">
                                 <label for="name" class="title4_contact">Name:</label>
                                 <input type="text"
                                        class="field w-input"
