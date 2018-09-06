@@ -13,13 +13,56 @@
   bottom: 0px;
   z-index: 1;
   height: 95vh;
-  background-image: url('../images/IMG_9975.jpg');
+  background-image: url('../images/IMG_8575.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 10px 0 10px 0 rgba(0, 0, 0, .66);
   opacity: 0.9;
   color: rgba(0, 0, 0, .75);
+}
+
+.hero.portraits {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/johannes-lesser-portfolio-effect.png'), url('../images/Lesser-Portrait-Hero.jpg');
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  opacity: 1;
+  -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero.landingpage {
+  background-image: url('../images/IMG_9975.jpg');
+}
+
+.hero.landscapes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3vw;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/johannes-lesser-portfolio-effect.png'), url('../images/IMG_8575.jpg');
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  opacity: 1;
 }
 
 .logo {
@@ -51,7 +94,18 @@
   justify-content: center;
 }
 
-.menuitem {
+.menu.secondmenu {
+  height: 13vh;
+  background-image: -webkit-linear-gradient(270deg, #f5f5f5, #f5f5f5);
+  background-image: linear-gradient(180deg, #f5f5f5, #f5f5f5);
+}
+
+.menu.secondmenu.portfoliomenu {
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.menu-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -72,11 +126,31 @@
   text-decoration: none;
 }
 
-.menuitem:hover {
+.menu-item:hover {
   padding-top: 12px;
   border-bottom: 1px solid #fff;
   border-radius: 2px;
   opacity: 0.75;
+}
+
+.menu-item.visiting {
+  color: rgba(0, 0, 0, .9);
+}
+
+.menu-item.whitebg {
+  color: rgba(0, 0, 0, .66);
+}
+
+.menu-item.second_menu_item {
+  color: #ff725f;
+}
+
+.menu-item.second_menu_item:hover {
+  border-bottom-color: #000;
+}
+
+.menu-item.second_menu_item.second_menu_item_portfolio {
+  color: #bdbdbd;
 }
 
 .menuitems {
@@ -88,6 +162,10 @@
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+}
+
+.menuitems.second_menu_items {
+  width: 50vw;
 }
 
 .socialmedia {
@@ -112,6 +190,19 @@
   align-items: center;
 }
 
+.socialmedia.leftbar {
+  left: 0px;
+  top: 0px;
+  right: auto;
+  width: 25vw;
+  padding-right: 0em;
+  padding-left: 3em;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
 .sociallogo {
   width: 3vh;
   height: 3vh;
@@ -125,7 +216,6 @@
 }
 
 .sociallogo:hover {
-  margin-top: 2px;
   opacity: 0.4;
 }
 
@@ -133,6 +223,22 @@
   width: 2.8vh;
   height: 2.8vh;
   background-image: url('../images/flogo-RGB-HEX-Blk-58.svg');
+}
+
+.sociallogo.homelogo {
+  width: 100%;
+  height: 1.2em;
+  background-image: url('../images/Johannes-lesser-new-logo.svg');
+  background-position: 0px 50%;
+  background-size: contain;
+}
+
+.sociallogo.homelogo.portfoliologo {
+  background-image: url('../images/insta-logo-black.svg');
+}
+
+.sociallogo.second_menu_social {
+  background-image: url('../images/insta-logo-orange.svg');
 }
 
 .subtitle {
@@ -202,6 +308,31 @@
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .25);
 }
 
+.column.one.portfolio {
+  margin-top: 95vh;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  box-shadow: none;
+}
+
+.column.one.portfolio.columntwo {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  padding-top: 3vw;
+  box-shadow: none;
+}
+
+.column.one.portfolio.thirdcolumn {
+  margin-top: 0vh;
+  margin-bottom: 6vh;
+  padding-top: 3vw;
+}
+
+.column.one.portfolio.thirdcolumn.nodistance {
+  margin-bottom: 0vh;
+}
+
 .column.two {
   height: 20vh;
 }
@@ -226,6 +357,233 @@
   margin-right: 8vw;
   margin-left: 8vw;
   background-image: url('../images/JSL03200.jpg');
+}
+
+.herotwo.landscapehero {
+  background-image: url('../images/IMG_9019.jpg');
+}
+
+.herotwo.first {
+  margin-right: 2vw;
+  background-image: url('../images/JSL01665.jpg');
+}
+
+.herotwo.first.landscapefirst {
+  background-image: url('../images/IMG_9019.jpg');
+}
+
+.herotwo.first.portraitfirst {
+  background-image: url('../images/IMG_9019.jpg');
+}
+
+.herotwo.first.portraiteightth {
+  background-image: url('../images/IMG_9019.jpg');
+}
+
+.herotwo.first.landscapeeigth {
+  background-image: url('../images/IMG_9019.jpg');
+}
+
+.herotwo.secondpic {
+  width: 100%;
+  height: 75%;
+  background-image: url('../images/JSL01712-1.jpg');
+  background-position: 50% 50%;
+}
+
+.herotwo.secondpic.landscapesecond {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.portraitsecond {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.portraitsixth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.portraitnineth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.portraitthirteenth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.landscapesixth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.landscapenineth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.secondpic.landscapethirteenth {
+  height: 80%;
+  background-image: url('../images/johannes-lesser-hero-web.jpg');
+}
+
+.herotwo.thirdpic {
+  width: 50vh;
+  background-image: url('../images/JSL03200.jpg');
+}
+
+.herotwo.thirdpic.landscpaethird {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.landscpaethird.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.portraitthird {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.portraitthird.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.portraitseventh {
+  width: 41.5vw;
+  height: 41.5vw;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.portraitseventh.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.portraittenth {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.portraittenth.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.portraitfourteenth {
+  width: 41.5vw;
+  height: 41.5vw;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.portraitfourteenth.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.landscpaeseventh {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.landscpaeseventh.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.landscpaetenth {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.landscpaetenth.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.thirdpic.landscpaefourteenth {
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../images/IMG_60441.jpg');
+  background-position: 69% 50%;
+}
+
+.herotwo.thirdpic.landscpaefourteenth.thirdsquare {
+  width: 50vh;
+  height: 50vh;
+}
+
+.herotwo.fourthpic {
+  width: 36vw;
+  height: 45vw;
+  margin-right: 2vw;
+  background-image: url('../images/JSL02495.jpg');
+  background-position: 50% 100%;
+}
+
+.herotwo.fourthpic.landscapefourth {
+  background-image: url('../images/DSC00211-1.jpg');
+  background-position: 82% 50%;
+}
+
+.herotwo.fourthpic.portraitfourth {
+  background-image: url('../images/DSC00211-1.jpg');
+  background-position: 82% 50%;
+}
+
+.herotwo.fourthpic.portraiteleventh {
+  background-image: url('../images/DSC00211-1.jpg');
+  background-position: 82% 50%;
+}
+
+.herotwo.fourthpic.landscapeeleventh {
+  background-image: url('../images/DSC00211-1.jpg');
+  background-position: 82% 50%;
+}
+
+.herotwo.fifthpic {
+  width: 45vw;
+  height: 45vw;
+  background-image: url('../images/JSL02200.jpg');
+}
+
+.herotwo.fifthpic.landscapefifth {
+  background-image: url('../images/IMG_8533-1.jpg');
+  background-position: 50% 50%;
+}
+
+.herotwo.fifthpic.portraitfifth {
+  background-image: url('../images/IMG_8533-1.jpg');
+  background-position: 50% 50%;
+}
+
+.herotwo.fifthpic.portraittwelveth {
+  background-image: url('../images/IMG_8533-1.jpg');
+  background-position: 50% 50%;
+}
+
+.herotwo.fifthpic.landscapetwelveth {
+  background-image: url('../images/IMG_8533-1.jpg');
+  background-position: 50% 50%;
 }
 
 .hero3 {
@@ -405,7 +763,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 18vw;
+  width: 15vw;
+  padding-left: 2.5em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -420,6 +779,10 @@
 .leftholder.descriptionholder {
   width: auto;
   margin-right: 2vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .leftholder.portraitholder {
@@ -448,10 +811,6 @@
 }
 
 .title4_bottom {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 0px;
   margin-right: 4em;
   margin-bottom: 0px;
@@ -478,7 +837,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 33vw;
+  width: 32vw;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 5em;
@@ -502,7 +861,7 @@
 }
 
 .description.blog_preview_text {
-  width: auto;
+  width: 32vw;
   margin-left: 0em;
 }
 
@@ -607,8 +966,13 @@
 }
 
 .blogholder.right {
-  padding-right: 4em;
+  width: 32vw;
+  margin-right: 4em;
   padding-left: 0em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .blogsubtitle {
@@ -679,6 +1043,7 @@
 }
 
 .submit-button {
+  margin-bottom: 3vh;
   background-image: -webkit-linear-gradient(270deg, #ff725f, #ff725f);
   background-image: linear-gradient(180deg, #ff725f, #ff725f);
   box-shadow: 0 2px 10px 0 rgba(255, 114, 95, .76);
@@ -690,3 +1055,229 @@
   opacity: 0.75;
 }
 
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/DSC00211-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.image-2 {
+  -webkit-filter: brightness(200%) brightness(200%) brightness(200%);
+  filter: brightness(200%) brightness(200%) brightness(200%);
+}
+
+.heading {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.text-block {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.textholder {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85vh;
+  padding-top: 10em;
+  padding-right: 5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.portfoliotitle {
+  max-width: 33vw;
+  margin-top: 15vh;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.9;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 5em;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: right;
+}
+
+.portfolio_text_holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33vw;
+  padding-left: 1em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.portfolio_text_holder.landscapeholder {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.subtitle_portfolio {
+  max-width: 30vw;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.66;
+  font-family: Lato, sans-serif;
+  color: rgba(34, 34, 34, .5);
+  font-size: 2em;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: 600;
+  text-align: right;
+}
+
+.subtitle_portfolio.sub_subtitle {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.standardbutton {
+  margin-top: 5em;
+  background-image: -webkit-linear-gradient(270deg, #ff725f, #ff725f);
+  background-image: linear-gradient(180deg, #ff725f, #ff725f);
+  box-shadow: 0 2px 10px 0 rgba(255, 114, 95, .76);
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+.standardbutton:hover {
+  opacity: 0.75;
+}
+
+.mid_hero_holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-right: 2vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mid_hero_holder.third_column_cta {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.portfolio_pics_holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 83vw;
+  margin-right: 2vw;
+
+}
