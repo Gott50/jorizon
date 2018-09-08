@@ -93,6 +93,15 @@ get_header();
                                        placeholder="Deine Email"
                                        id="email"
                                        required="">
+                                <label
+                                        for="email" class="title4_contact">Nachricht:</label>
+                                <textarea rows="5"
+                                       class="field second w-input"
+                                       name="text"
+                                       data-name="Message"
+                                       placeholder="Deine Nachricht"
+                                       id="text"
+                                          required=""></textarea>
                                 <input
                                         type="submit" value="Submit" data-wait="Please wait..."
                                         class="submit-button w-button"></form>
