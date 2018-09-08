@@ -82,17 +82,18 @@ get_header();
                                        class="field w-input"
                                        maxlength="256" name="name"
                                        data-name="Name"
-                                       placeholder="Enter your name"
+                                       placeholder="Dein Name"
                                        id="name"><label
-                                        for="email" class="title4_contact">Email Address:</label>
+                                        for="email" class="title4_contact">Email Adresse:</label>
                                 <input type="text"
                                        class="field second w-input"
                                        maxlength="256"
                                        name="email"
                                        data-name="Email"
-                                       placeholder="Enter your email"
+                                       placeholder="Deine Email"
                                        id="email"
-                                       required=""><input
+                                       required="">
+                                <input
                                         type="submit" value="Submit" data-wait="Please wait..."
                                         class="submit-button w-button"></form>
                             <div class="w-form-done">
