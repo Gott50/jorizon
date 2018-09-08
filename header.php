@@ -35,6 +35,22 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jorizon' ); ?></a>
 
 	<header id="masthead" class="site-header">
+        <div class="site-branding">
+			<?php
+			if ( is_front_page() && is_home() ) :
+				?>
+                <div class="hero" style="background-image: url('<?php header_image(); ?>')">
+                    <div class="logo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-lesser-new-logo.svg)"></div>
+                </div>
+				<?php
+				$jorizon_description = get_bloginfo( 'description', 'display' );
+				if ( $jorizon_description || is_customize_preview() ) :
+					?>
+                    <h1 class="subtitle"><?php echo $jorizon_description; /* WPCS: xss ok. */ ?></h1>
+				<?php endif;
+			endif; ?>
+        </div><!-- .site-branding -->
+
 		<nav id="site-navigation" class="main-navigation menu">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jorizon' ); ?></button>
 			<?php
@@ -59,6 +75,9 @@
                 <?php
             endif; ?>
 		</nav><!-- #site-navigation -->
+
+
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
