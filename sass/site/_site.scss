@@ -1,5 +1,10 @@
-// @import "../layout/content-sidebar";
+//@import "../layout/content";
+@import "../layout/content-sidebar";
 // @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+## Content
+--------------------------------------------------------------*/
+@import "content/content";
 
 /*--------------------------------------------------------------
 ## Posts and pages

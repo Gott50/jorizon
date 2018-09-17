@@ -1,0 +1,56 @@
+.post-navigation {
+  $width-posts-preview-padding: 22px;
+  $width-posts-preview: 300px + 2 * $width-posts-preview-padding;
+
+  position: fixed;
+  top: 0;
+
+  .icon {
+    top: 50%;
+    font-size: 4em;
+  }
+
+  .posts-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: $color__background-post-preview-title;
+    padding: $width-posts-preview-padding;
+    padding-top: 140px;
+    width: $width-posts-preview;
+  }
+
+  &.nav-previous,
+  &.nav-next {
+    &:hover{
+      margin: 0;
+    }
+
+    a {
+      display: flex;
+      height: 100vh;
+    }
+  }
+
+  &.nav-previous {
+    left: 0;
+    transition: margin-left 1s;
+    margin-left: -$width-posts-preview;
+
+    .icon-angle-down {
+      transform: rotate(90deg);
+    }
+  }
+
+  &.nav-next {
+    right: 0;
+    transition: margin-right 1s;
+    margin-right: -$width-posts-preview;
+
+    text-align: right;
+    .icon-angle-down {
+      transform: rotate(270deg);
+    }
+  }
+}
