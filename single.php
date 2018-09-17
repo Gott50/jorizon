@@ -47,8 +47,8 @@ if ( $nextPost ): ?>
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :?>
-                    <div onclick="toggleComments(this)" id="site-comments" class="single-post-comments post-attachment">
-                        <button aria-expanded="false">
+                    <div id="site-comments" class="single-post-comments post-attachment">
+                        <button onclick="toggleComments(this)" aria-expanded="false">
 							<?php
 							$number =  get_comments_number();
 							echo sprintf( _n( '%s Comment', '%s Comments', $number ), number_format_i18n( $number ) )
@@ -67,11 +67,14 @@ if ( $nextPost ): ?>
         </main><!-- #main -->
     </div><!-- #primary -->
     <script>
-        function toggleComments(container) {
+        function toggleComments(button) {
+            var container = button.parentElement;
             if ( -1 !== container.className.indexOf( 'toggled' ) ) {
                 container.className = container.className.replace( ' toggled', '' );
+                button.setAttribute( 'aria-expanded', 'false' );
             } else {
                 container.className += ' toggled';
+                button.setAttribute( 'aria-expanded', 'true' );
             }
         }
     </script>
