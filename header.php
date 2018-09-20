@@ -37,7 +37,7 @@
 	<header id="masthead" class="site-header">
         <div class="site-branding">
 			<?php
-			if ( is_front_page() && is_home() ) :
+			if ( is_front_page()) :
 				?>
                 <div class="hero" style="background-image: url('<?php header_image(); ?>')">
                     <div class="logo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-lesser-new-logo.svg)"></div>
