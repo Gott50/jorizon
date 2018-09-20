@@ -11,7 +11,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-            <div class="sectionlast">
+            <div>
                 <div class="column one">
                     <div class="leftholder">
                         <h1 class="title2">Landschaften</h1><a href="#" class="title3 m_left landscapes">Share Foto</a>
