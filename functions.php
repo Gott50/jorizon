@@ -133,6 +133,13 @@ function jorizon_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'jorizon_scripts' );
 
+function is_latest() {
+	global $post;
+	$loop = get_posts( 'numberposts=1' );
+	$latest = $loop[0]->ID;
+	return ( $post->ID == $latest ) ? true : false;
+}
+
 /**
  * Implement the Custom Header feature.
  */

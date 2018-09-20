@@ -15,18 +15,46 @@
 
 get_header();
 ?>
-    <div class="column one blog">
-        <div class="leftholder">
-            <h1 class="title2">Blog</h1><a href="#" class="title3 m_left landscapes">Book me</a></div>
-        <div class="portfolio_pics_holder firstholder">
-            <div class="herotwo first blogfirst"
-                style=" background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL01712-1.jpg);"></div>
-            <div class="title2 most_recent_badge">Most recent</div>
-            <h1 class="blogtitle1 firsttext">Landschafts Meerphotos</h1>
-            <h1 class="subtitle_blog firsttext">Wie man solche Bilder knipst</h1>
-            <h1 class="blogtime">1 day ago</h1>
-            <h1 class="subtitle_blog sub_subtitle firsttext">Als Teil meines Berufs besuche ich nun schon seit beinahe zehn Jahren Veranstaltungen von Apple. Das Event am vergangenen Mittwoch im ...</h1><a href="#" class="title2 read_more_button first_more_button w-button">Mehr lesen</a></div>
-    </div>
+
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+
+			<?php if ( have_posts() ) : ?>
+				<?php
+				/* Start the Loop */
+				while ( have_posts() ) :
+					the_post();
+
+					/*
+					 * Include the Post-Type-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+					 */
+
+					if (is_latest()):
+                        get_template_part( 'template-parts/content', 'latest' );
+					else:
+                        get_template_part( 'template-parts/content', get_post_type() );
+					endif;
+
+				endwhile;
+
+				the_posts_navigation();
+
+			else :
+
+				get_template_part( 'template-parts/content', 'none' );
+
+			endif;
+			?>
+
+        </main><!-- #main -->
+    </div><!-- #primary -->
+
+
+
+
+
     <div class="column one blog">
         <div class="leftholder"></div>
         <div class="portfolio_pics_holder">
