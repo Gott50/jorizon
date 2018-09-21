@@ -16,6 +16,8 @@
     margin: 0 auto 0 auto;
 
     .entry-content {
+      margin-top: 1vh;
+      font-weight: 300;
       .alignleft {
         margin-left: -$size__post-content-image-shift;
       }
@@ -26,7 +28,9 @@
   }
 
   .entry-title {
-    margin-bottom: 0;
+    margin-top: 3vh;
+    margin-bottom: 0.75vh;
+    font-size: 1.6em;
   }
 
   .entry-footer {
@@ -41,6 +45,8 @@
     span {
       font-style: italic;
       font-size: smaller;
+      color: $color__entry-meta;
+      line-height: 1.6em;
     }
   }
 
