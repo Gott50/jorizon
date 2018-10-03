@@ -25,7 +25,7 @@
             <div class="socialmedia"><a href="https://www.instagram.com/jorizon/?hl=de" target="_blank" class="sociallogo"
                 style="    background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Asset-17.svg)"></a></div>
             <div class="socialmedia leftbar"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="sociallogo homelogo portfoliologo"
-                style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/insta-logo-black.svg);"></a></div>
+                style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-Lessdr-Logo-icon.svg);"></a></div>
         </div>
         <div class="imprint two">
             <div class="hero3 imprintbg" style="background-image: linear-gradient(180deg, transparent, transparent), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8533-1.jpg);">

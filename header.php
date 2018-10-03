@@ -74,7 +74,7 @@
                 ?>
                 <div class="socialmedia leftbar">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="sociallogo homelogo" rel="home"
-                       style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-lesser-new-logo.svg)"></a>
+                       style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/Johannes-Lessdr-Logo-icon.svg)"></a>
                 </div>
                 <?php
             endif; ?>
