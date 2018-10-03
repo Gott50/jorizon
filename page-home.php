@@ -57,7 +57,7 @@ get_header();
                         einen Besuch auf jeden Fall wert sind.
                     </div><a href="#" class="cta blogmore">Mehr lesen👉</a></div>
             </div>
-            <div class="sectionlasts">
+            <div id="contact" class="sectionlasts">
                 <div class="column one contactcolumn">
                     <div class="leftholder">
                         <div class="left_holder_top">
