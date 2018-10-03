@@ -70,7 +70,7 @@
             <div class="socialmedia"><a href="https://www.instagram.com/jorizon/?hl=de" target="_blank"
                                         class="sociallogo"></a></div>
             <?php
-            if ( !is_front_page() || !is_home() ) :
+            if ( !is_front_page() ) :
                 ?>
                 <div class="socialmedia leftbar">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="sociallogo homelogo" rel="home"
