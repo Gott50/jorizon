@@ -23,7 +23,7 @@ get_header();
                             ist die Faszination für die unbändigbare Kraft der Natur, die sich uns immer wieder in
                             fantastischen Szenerien offenbart, ungebrochen. Hier ist eine kleine Auswahl meiner
                             Aufnahmen.
-                        </div><a href="#" class="cta">Mehr Fotos👉</a></div>
+                        </div><a href="<?php echo get_link_by_slug('landscape', 'page') ?><?php echo get_link_by_slug('landscape', 'page') ?>" class="cta">Mehr Fotos👉</a></div>
                 </div>
                 <div class="column two">
                     <div class="hero3" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
@@ -33,7 +33,7 @@ get_header();
                         <div class="description portraitdescription">
                             Hier ist eine kleine Auswahl meiner Portraits. Wenn ihr Interesse an eigenen habt, dann
                             schreibt mir einfach eine Nachricht.
-                        </div><a href="#" class="cta">Mehr Fotos👉</a></div>
+                        </div><a href="<?php echo get_link_by_slug('portfolio', 'page') ?>" class="cta">Mehr Fotos👉</a></div>
                     <div class="herotwo portrait" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02495.jpg)"></div>
                     <div class="leftholder portraitholder">
                         <h1 class="title2 portraittitle">Portraits</h1>
@@ -54,7 +54,7 @@ get_header();
                         Geschichten. Daher werde ich hier regelmäßig einige eigene Geschichten erzählen. Für euch gibt
                         es dazu viele Hintergrundinformationen, Tipps und Tricks sowie spannende Locations, die
                         einen Besuch auf jeden Fall wert sind.
-                    </div><a href="#" class="cta blogmore">Mehr lesen👉</a></div>
+                    </div><a href="<?php echo get_link_by_slug('blog', 'page') ?>" class="cta blogmore">Mehr lesen👉</a></div>
             </div>
             <div id="contact" class="sectionlasts">
                 <div class="column one contactcolumn">

@@ -133,6 +133,11 @@ function jorizon_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'jorizon_scripts' );
 
+function get_link_by_slug($slug, $type = 'post'){
+	$post = get_page_by_path($slug, OBJECT, $type);
+	return get_permalink($post->ID);
+}
+
 /**
  * Implement the Custom Header feature.
  */
