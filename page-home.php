@@ -14,7 +14,7 @@ get_header();
             <div>
                 <div class="column one">
                     <div class="leftholder">
-                        <h1 class="title2">Landschaften</h1><a href="#" class="title3 m_left landscapes">Share Foto</a>
+                        <h1 class="title2">Landschaften</h1>
                     </div>
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg);"></div>
                     <div class="leftholder descriptionholder">
@@ -36,7 +36,7 @@ get_header();
                         </div><a href="#" class="cta">Mehr Fotos👉</a></div>
                     <div class="herotwo portrait" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/JSL02495.jpg)"></div>
                     <div class="leftholder portraitholder">
-                        <h1 class="title2 portraittitle">Portraits</h1><a href="#" class="title3 m_right">Share Foto</a>
+                        <h1 class="title2 portraittitle">Portraits</h1>
                     </div>
                 </div>
                 <div class="column two">
@@ -46,7 +46,6 @@ get_header();
             <div class="column one blogsection">
                 <div class="blogholder">
                     <h1 class="title2">Blog</h1>
-                    <a href="#" class="title3 blogshare m_left blog">Share Article</a>
                 </div>
                 <div class="herotwo blog" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
                 <div class="blogholder right">
@@ -62,7 +61,7 @@ get_header();
                     <div class="leftholder">
                         <div class="left_holder_top">
                             <h1 class="title2">Kontakt</h1>
-                            <h1 class="title3 m_left">Email schicken</h1>
+                            <h1 class="title3 m_left"></h1>
                         </div>
                     </div>
                     <div class="herotwo" style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9274-2.jpg)"></div>
