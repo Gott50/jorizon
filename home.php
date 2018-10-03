@@ -37,6 +37,8 @@ get_header();
                         get_template_part( 'template-parts/content', '2' );
 					elseif (is_nth(3)):
                         get_template_part( 'template-parts/content', '3' );
+					elseif (is_nth(4)):
+                        get_template_part( 'template-parts/content', '4' );
 					else:
                         get_template_part( 'template-parts/content', get_post_type() );
 					endif;
@@ -77,7 +79,9 @@ get_header();
                         <h1 class="blogtitle1 rightaligned">Landschafts Meerphotos</h1>
                         <h1 class="subtitle_blog rightaligned">Wie man solche Bilder knipst</h1>
                         <h1 class="blogtime">1 day ago</h1>
-                        <h1 class="subtitle_blog sub_subtitle rightaligned">Als Teil meines Berufs besuche ich nun schon seit beinahe zehn Jahren Veranstaltungen von Apple. Das Event am vergangenen Mittwoch im ...</h1><a href="#" class="title2 read_more_button w-button">Mehr lesen</a></div>
+                        <h1 class="subtitle_blog sub_subtitle rightaligned">Als Teil meines Berufs besuche ich nun schon
+                            seit beinahe zehn Jahren Veranstaltungen von Apple. Das Event am vergangenen Mittwoch im
+                            ...</h1><a href="#" class="title2 read_more_button w-button">Mehr lesen</a></div>
                     <div class="herotwo first landscapebottom"
                          style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_9019.jpg);"></div>
                 </div>
