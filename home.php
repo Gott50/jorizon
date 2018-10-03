@@ -34,7 +34,7 @@ get_header();
 					if (is_latest()):
                         get_template_part( 'template-parts/content', 'latest' );
 					elseif (is_nth(2)):
-                        get_template_part( 'template-parts/content', 'second' );
+                        get_template_part( 'template-parts/content', '2' );
 					else:
                         get_template_part( 'template-parts/content', get_post_type() );
 					endif;
