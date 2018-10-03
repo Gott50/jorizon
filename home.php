@@ -35,6 +35,8 @@ get_header();
                         get_template_part( 'template-parts/content', 'latest' );
 					elseif (is_nth(2)):
                         get_template_part( 'template-parts/content', '2' );
+					elseif (is_nth(3)):
+                        get_template_part( 'template-parts/content', '3' );
 					else:
                         get_template_part( 'template-parts/content', get_post_type() );
 					endif;
