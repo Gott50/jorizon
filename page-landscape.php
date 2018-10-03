@@ -17,7 +17,7 @@ get_header();
     </div>
     <div class="column one portfolio">
         <div class="leftholder">
-            <h1 class="title2">Landscapes</h1><a href="#" class="title3 m_left landscapes">Book me</a></div>
+            <h1 class="title2">Landscapes</h1></div>
         <div class="portfolio_pics_holder">
             <div class="herotwo first landscapefirst"
                 style="background-image: url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/DSC00211-1.jpg)"></div>
