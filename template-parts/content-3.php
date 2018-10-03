@@ -12,6 +12,7 @@
 <style>
     .attachment-post-thumbnail {
         height: 100%;
+        width: 100%;
         object-fit: cover;
     }
 </style>
