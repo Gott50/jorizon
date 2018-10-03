@@ -4435,7 +4435,7 @@ th {
   padding-left: 0; }
 
 .column.one.contactcolumn {
-  -webkit-justify-content: space-around;
-  justify-content: space-around; }
+  padding-left: 4em;
+  padding-right: 4em; }
 
 /*# sourceMappingURL=style.css.map */
