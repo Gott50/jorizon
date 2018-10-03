@@ -139,6 +139,12 @@ function is_latest() {
 	$latest = $loop[0]->ID;
 	return ( $post->ID == $latest ) ? true : false;
 }
+function is_nth($n) {
+	global $post;
+	$loop = get_posts( "numberposts=$n" );
+	$latest = $loop[$n-1]->ID;
+	return ( $post->ID == $latest ) ? true : false;
+}
 
 /**
  * Implement the Custom Header feature.
