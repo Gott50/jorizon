@@ -48,10 +48,7 @@ if ( $nextPost ): ?>
 				if ( comments_open() || get_comments_number() ) :?>
                     <div id="site-comments" class="single-post-comments post-attachment">
                         <button onclick="toggleComments(this)" aria-expanded="false">
-							<?php
-							$number =  get_comments_number();
-							echo sprintf( _n( '%s Comment', '%s Comments', $number ), number_format_i18n( $number ) )
-							?> ...
+							Hinterlasse einen Kommentar!
                         </button>
                         <ul>
 							<?php comments_template(); ?>
