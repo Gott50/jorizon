@@ -814,53 +814,67 @@ a {
 /*--------------------------------------------------------------
 ### SinglePost
 --------------------------------------------------------------*/
+.blog .content-area,
 .single-post .content-area {
   width: 45em;
   max-width: 100%;
   flex-grow: 99999;
   padding: 0 10em; }
+.blog .site-content,
 .single-post .site-content {
-  font-size: 23px; }
+  font-size: 26px; }
+.blog .site-main,
 .single-post .site-main {
   width: 25em;
   max-width: 100%;
   margin: 0 auto 0 auto; }
+  .blog .site-main .entry-content,
   .single-post .site-main .entry-content {
     margin-top: 1vh;
     font-weight: 300; }
+    .blog .site-main .entry-content .alignleft,
     .single-post .site-main .entry-content .alignleft {
       margin-left: -10em; }
+    .blog .site-main .entry-content .alignright,
     .single-post .site-main .entry-content .alignright {
       margin-right: -10em; }
+.blog .entry-title,
 .single-post .entry-title {
   margin-top: 3vh;
   margin-bottom: 0.75vh;
   font-size: 1.6em; }
+.blog .entry-footer span,
 .single-post .entry-footer span {
   display: block;
   font-style: italic;
   font-size: smaller; }
+.blog .entry-meta span,
 .single-post .entry-meta span {
   font-style: italic;
   font-size: smaller;
   color: rgba(25, 72, 177, 0.5);
   line-height: 1.6em; }
+.blog .post-attachment,
 .single-post .post-attachment {
   margin-left: calc(-10em - 10px);
   width: calc(100% + (10em + 10px)*2);
   max-width: 100vw; }
+  .blog .post-attachment img,
   .single-post .post-attachment img {
     margin: auto;
     display: block;
     max-width: 100%; }
+.blog .single-post-comments,
 .single-post .single-post-comments {
   min-height: 100px; }
+  .blog .single-post-comments ul,
   .single-post .single-post-comments ul {
     max-height: 0;
     overflow: scroll;
     transition: max-height 1s;
     margin: 0;
     padding: 0; }
+  .blog .single-post-comments button,
   .single-post .single-post-comments button {
     display: block;
     background: none;
@@ -872,10 +886,13 @@ a {
     border: 0 midnightblue solid;
     border-bottom-width: 3px;
     border-radius: 0; }
+  .blog .single-post-comments .comments-area,
   .single-post .single-post-comments .comments-area {
     display: none; }
+  .blog .single-post-comments.toggled .comments-area,
   .single-post .single-post-comments.toggled .comments-area {
     display: block; }
+  .blog .single-post-comments.toggled ul,
   .single-post .single-post-comments.toggled ul {
     max-height: 2000px; }
 
