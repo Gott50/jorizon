@@ -1,0 +1,14 @@
+.column.one {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.column.one .leftholder  {
+    padding-left: 0;
+}
+.column.one.blogsection {
+  padding-left: 0;
+}
+.column.one.contactcolumn {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
