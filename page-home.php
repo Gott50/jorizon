@@ -23,7 +23,7 @@ get_header();
                             ist die Faszination für die unbändigbare Kraft der Natur, die sich uns immer wieder in
                             fantastischen Szenerien offenbart, ungebrochen. Hier ist eine kleine Auswahl meiner
                             Aufnahmen.
-                        </div><a href="<?php echo get_link_by_slug('landscape', 'page') ?><?php echo get_link_by_slug('landscape', 'page') ?>" class="cta">Mehr Fotos👉</a></div>
+                        </div><a href="<?php echo get_link_by_slug('landscape', 'page') ?>" class="cta">Mehr Fotos👉</a></div>
                 </div>
                 <div class="column two">
                     <div class="hero3" style="    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(<?php bloginfo( 'stylesheet_directory' ); ?>/assets/IMG_8575.jpg);"></div>
