@@ -45,7 +45,7 @@ if ( $nextPost ): ?>
 				get_template_part( 'template-parts/content', get_post_type() );
 
 				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :?>
+                if ( false ) :?>
                     <div id="site-comments" class="single-post-comments post-attachment">
                         <button onclick="toggleComments(this)" aria-expanded="false">
 							Hinterlasse einen Kommentar!
